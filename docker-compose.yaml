@@ -26,6 +26,8 @@ services:
     depends_on:
       - "db"
       - "zabbix-server"
+    environment:
+      ZBX_SERVER_HOST: zabbix-server
     env_file:
       - ./.zabbix.env
   
