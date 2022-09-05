@@ -16,3 +16,9 @@ docker-compose up -d
 And you should have a Zabbix stack up and running at http://localhost:7000. 
 
 From here you can easily hook it up behind a reverse proxy with SSL.
+
+NEW:
+
+Grafana Dashboard in docker compose
+
+tip HTTP URL ex: http://172.20.0.1:7000/api_jsonrpc.php
